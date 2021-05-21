@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "preserveConstEnums": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": false,
+      "resolveJsonModule" : true,
+      "allowSyntheticDefaultImports": true,
+      "typeRoots": ["./node_modules/@types", "types"],
+      "noUnusedParameters": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "target": "es5",
+      "outDir": ".build",
+      "moduleResolution": "node",
+      "downlevelIteration": true,
+      "importHelpers": true,
+      "esModuleInterop": true,
+      "lib": ["es5"],
+      "rootDir": "./"
+    },
+    "exclude": [
+      "node_modules",
+      "!node_modules/@types"
+    ]
+  }
