@@ -55,7 +55,7 @@ yarn
 Start the projects development server
 
 ```bash
-yarn start
+yarn server
 ```
 
 The project should now be available at http://localhost:4000
